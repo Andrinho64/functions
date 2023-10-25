@@ -12,8 +12,8 @@ function verifyPalindrome(palavra) {
   return palavra === palavraInvertida;
 }
 
-console.log(verifyPalindrome(arara));
-console.log(verifyPalindrome(desenvolvimento));
+console.log(verifyPalindrome('arara'));
+console.log(verifyPalindrome('desenvolvimento'));
 // Requisito 2 - Crie a função getHighestIndex
 
 function getHighestIndex(array) {
